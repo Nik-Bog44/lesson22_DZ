@@ -2,32 +2,32 @@
 # оперировали внутренним состоянием, 
 # а не использовали цепочку вызовов объектов
 
-class Room:
-    def get_name(self):
-        return 42
-
-
-class Street:
-    def get_room(self) -> Room:
-        return Room()
-
-
-class City:
-    def get_street(self) -> Street:
-        return Street()
-
-    def population(self):
-        return 100500
-
-
-class Country:
-    def get_city(self) -> City:
-        return City()
-
-
-class Planet:
-    def get_contry(self) -> Country:
-        return Country()
+# class Room:
+#     def get_name(self):
+#         return 42
+#
+#
+# class Street:
+#     def get_room(self) -> Room:
+#         return Room()
+#
+#
+# class City:
+#     def get_street(self) -> Street:
+#         return Street()
+#
+#     def population(self):
+#         return 100500
+#
+#
+# class Country:
+#     def get_city(self) -> City:
+#         return City()
+#
+#
+# class Planet:
+#     def get_contry(self) -> Country:
+#         return Country()
 
 
 class Person:
