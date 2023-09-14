@@ -23,3 +23,6 @@ class Unit:
             return self.speed * 0.5
         else:
             raise ValueError('Эк тебя раскорячило')
+
+
+
